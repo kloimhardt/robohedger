@@ -1,0 +1,7 @@
+;;with figwheel
+clojure -A:build-dev
+
+;;plain clojurescript
+clj --main cljs.main --compile robohedger.core --repl
+clj -m cljs.main --optimizations advanced -c robohedger.core
+clj -m cljs.main --serve
