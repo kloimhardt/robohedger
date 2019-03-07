@@ -2,7 +2,7 @@
 Calculates the optimal hedge ratios for the sample financial portfolio.
 
 ## Run
-Just open robohedger.html above.
+Just open robohedger.html above: https://kloimhardt.github.io/robohedger.html
 ## For development with figwheel
 ```shell
 $ clojure -A:build-dev
